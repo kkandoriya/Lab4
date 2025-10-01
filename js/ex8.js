@@ -1,0 +1,1 @@
+const input = document.getElementById("numberInput"); const out = document.getElementById("output"); document.getElementById("enterBtn").addEventListener("click", ()=>{ const val = Number(input.value); out.textContent = "You entered: " + val; });

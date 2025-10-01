@@ -1,0 +1,1 @@
+function square(factor) { return function(x) { return factor * x; }; } let squareIt = square(5); alert("The square of 5 = " + squareIt(5));

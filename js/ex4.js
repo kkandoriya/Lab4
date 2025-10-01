@@ -1,0 +1,1 @@
+function showDistance(speed,time){ return "The distance is " + (speed * time); } alert(showDistance(50,20));

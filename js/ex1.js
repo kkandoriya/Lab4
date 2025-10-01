@@ -1,0 +1,1 @@
+let myText = "Hello, world!"; alert(myText);

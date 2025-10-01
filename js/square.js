@@ -1,0 +1,1 @@
+function square(factor) { return function(x) { return factor * x; }; }

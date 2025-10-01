@@ -1,0 +1,1 @@
+function oldFunction() { return function() { alert("This is an original function."); }; } let myFunction = oldFunction(); myFunction();

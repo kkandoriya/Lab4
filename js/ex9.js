@@ -1,0 +1,1 @@
+document.getElementById("showBtn").addEventListener("click", ()=>{ const n = Number(document.getElementById("num9").value); if(Number.isNaN(n)){ document.getElementById("out9").textContent = "Please enter a number"; return; } document.getElementById("out9").textContent = `You entered: ${n} — squared: ${n * n}`; });
